@@ -50,8 +50,8 @@
 
 .div-details-o1-icons {
     display: inline-block;
-    width: 25px;
-    height: 24px;
+    width: 0px;
+    height: 0px;
     padding: 30px;
     border-bottom-right-radius: 30px;
     /* border: 2px black solid; */
@@ -226,7 +226,7 @@ div>div.bpdy-details-abt-cont>p:nth-child(7) {
     margin-block-start: 150px;
     position: absolute;
     right: -255px;
-    height: 455px;
+    height: 479px;
     border-bottom-right-radius: 65px;
     box-shadow: 7px 13px 23px 0 black;
 }
