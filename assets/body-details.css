@@ -482,6 +482,14 @@ div.details-body-contact-11 p:nth-child(3) {
 }
 
 @media screen and (max-height: 450px) {
+    .body-div-details-img-other {
+        flex-wrap: wrap !important;
+        /* overflow: scroll; */
+    }
+    .div-details-my-show-image {
+        width: 80vw;
+        height: 100vh;
+    }
     .newhamb {
         font-size: 42px;
         padding-block-start: 32px;
@@ -519,5 +527,12 @@ div.details-body-contact-11 p:nth-child(3) {
     .details-body-contact-12 {
         top: 20px;
         right: 10px;
+    }
+}
+
+@media screen and (max-height: 320px) {
+    .body-div-details-img-other {
+        flex-wrap: wrap !important;
+        /* overflow: scroll; */
     }
 }
