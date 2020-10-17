@@ -361,9 +361,9 @@ div>div.bpdy-details-abt-cont>p:nth-child(7) {
 /*For Ipad screen size*/
 
 @media screen and (max-height: 800px) {
-    .header-col-2 {
+    /* .header-col-2 {
         display: none;
-    }
+    } */
     .header-menu {
         display: none;
     }
