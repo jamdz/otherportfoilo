@@ -318,6 +318,7 @@ div>div.bpdy-details-abt-cont>p:nth-child(7) {
     }
     .header-col-buttons {
         margin-block-start: 20px;
+        width: 390px;
     }
     .header-col-buttons-01 button a,
     .header-col-buttons-02 button a {
