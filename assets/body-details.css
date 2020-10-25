@@ -292,6 +292,9 @@ div.details-body-contact-11 p:nth-child(3) {
 }
 
 @media screen and (max-width: 950px) {
+    .mobile-hamburger {
+        display: block !important;
+    }
     div.body-details-heads>div.body-details-heads-112,
     div.body-details-heads>div.body-details-heads-113 {
         /* margin-inline-start: 20px; */

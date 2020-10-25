@@ -392,9 +392,6 @@ div>div.bpdy-details-abt-cont>p:nth-child(7) {
     .header-menu {
         display: none;
     }
-    .mobile-hamburger {
-        display: block !important;
-    }
     .header-col-buttons-02 {
         margin-inline-end: 0px;
     }
