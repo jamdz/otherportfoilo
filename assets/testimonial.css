@@ -17,7 +17,7 @@ html {
     align-items: center;
     justify-content: center;
     padding: 30px;
-    background-image: url(/assets/image/pattern-curve.svg);
+    background-image: url("/assets/image/pattern-curve.svg");
     background-position: center bottom;
     background-size: contain;
     background-repeat: no-repeat;
@@ -59,7 +59,7 @@ html {
     justify-content: center;
     flex-direction: column;
     background-image: url("/assets/image/pattern-quotes.svg");
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-size: 80px;
     background-position: top center;
 }
@@ -136,11 +136,11 @@ html {
 }
 
 .next::after {
-    background-image: url("./assets/image/icon-next.svg");
+    background-image: url("/assets/image/icon-next.svg");
 }
 
 .prev::after {
-    background-image: url("./image/icon-prev.svg");
+    background-image: url("/assets/image/icon-prev.svg");
 }
 
 @media only screen and (min-width: 768px) {
