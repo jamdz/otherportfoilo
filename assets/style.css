@@ -294,6 +294,32 @@ div>div.bpdy-details-abt-cont>p:nth-child(7) {
     display: none;
 }
 
+.textte-header {
+    padding-top: 30px;
+}
+
+.textte-content-p {
+    margin-top: 20px;
+}
+
+.textte-header h3 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div.textte-content-p>p:nth-child(1) {
+    padding: 0 10px;
+    padding-bottom: 40px;
+    font-size: 14px;
+}
+
+
+/* div.textte-content-p>p:nth-child(3) {
+    padding-bottom: 40px;
+} */
+
 
 /*Media queries*/
 
@@ -311,7 +337,14 @@ div>div.bpdy-details-abt-cont>p:nth-child(7) {
     }
 }
 
+section:nth-child(3)>div>div.div-details-01.aos-init.aos- {
+    margin-block-start: 30px;
+}
+
 @media only screen and (max-width: 950px) {
+    div.textte-content-p>p:nth-child(3) {
+        padding-bottom: 60px;
+    }
     /* body {
         overflow-y: hidden;
     } */
