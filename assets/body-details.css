@@ -89,7 +89,7 @@ p:nth-child(4) {
 
 .body-div-details-img-other {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
@@ -416,9 +416,9 @@ div.details-body-contact-11 p:nth-child(3) {
         flex-wrap: wrap;
         height: 180px;
     }
-    .body-details-numbers {
+    /* .body-details-numbers {
         height: 530px;
-    }
+    } */
     .details-body-contact-11 p {
         font-size: 23px;
         padding-inline-start: 25px;
@@ -441,7 +441,7 @@ div.details-body-contact-11 p:nth-child(3) {
         flex-wrap: nowrap;
     }
     .body-details-numbers {
-        height: 300px;
+        height: 200px;
     }
     .body-details {
         margin-block-start: 50px;
@@ -477,10 +477,10 @@ div.details-body-contact-11 p:nth-child(3) {
         box-shadow: 4px 4px 15px black;
         background-color: lightgray;
     }
-    .body-div-details-img-other {
+    /* .body-div-details-img-other {
         flex-wrap: nowrap !important;
         overflow: scroll;
-    }
+    } */
 }
 
 @media screen and (max-width: 450px) {

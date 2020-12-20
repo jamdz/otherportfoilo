@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My portfoilo home page</title>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" type=text/css href="./assets/forms.css">
     <link rel="stylesheet" type=text/css href="./assets/style.css">
     <link rel="stylesheet" type=text/css href="./assets/testimonial.css">
     <link rel="stylesheet" type=text/css href="./assets/img.css">
@@ -62,8 +63,8 @@
                         <ul class="menu">
 
                             <li>Home</li>
-                            <li>About Us</li>
-                            <li>Contact</li>
+                            <li id="menu-li-ab-us">About Us</li>
+                            <li id="menu-li-cnt-us">Contact</li>
 
                         </ul>
 
@@ -214,7 +215,7 @@
                                 <div class="body-div-hover-button">
                                     <div class="hover-btn"><button class="hover-11-btn" href="">See More</button></div>
                                 </div>
-                                <img src="./assets/image/Screenshot_2020-09-03 Screenshot.png" alt="content" class="div-details-my-show-image">
+                                <img src="./assets/image/Screenshot_2020-09-03 Screenshot.png" alt="content" class="div-details-my-show-image" lazy-loading="true">
                             </div>
 
                             <div class="body-div-image12 body-div-24434">
@@ -334,7 +335,7 @@
             <div id="body-user-testimonials-1234">
                 <h2>What Our Clients Are Saying</h2>
             </div>
-            <!-- Start of comment for bbbootstrap.com div elements & link: {https://bbbootstrap.com/snippets/bootstrap-client-testimonials-3d-flip-animation-49579340}-->
+
 
             <section class="container">
                 <div class="slider">
@@ -369,7 +370,6 @@
                 </div>
             </section>
 
-            <!-- End of comment for bbbootstrap.com div elements & link: {https://bbbootstrap.com/snippets/bootstrap-client-testimonials-3d-flip-animation-49579340}-->
         </section>
 
         <section></section>
@@ -397,9 +397,38 @@
 
         </section>
 
-        <section>
-            <footer>
+        <section class="sec-footer-1121">
+            <footer id="sec-footer-1121-footer-10">
 
+                <div class="footer-logo">
+                    <div id="footer-logo-heading2">
+                        <h2>Jones</h2>
+                    </div>
+                    <div id="footer-logo-heading2-p">
+                        <p>Lorem ipsum dolor sit amet consectetur,<br> provident voluptatibus libero quidem!</p>
+                    </div>
+                </div>
+
+
+                <div class="footer-conatiner-cont">
+                    <div class="footer-conatiner-cont-heading">links</div>
+                    <div class="footer-conatiner-cont-col">
+                        <span class="footer-conatiner-cont-col-links">Home</span>
+                        <span class="footer-conatiner-cont-col-links">About Us</span>
+                        <span class="footer-conatiner-cont-col-links">Contact</span>
+                    </div>
+                </div>
+
+
+                <div class="footer-conatiner-cont-1">
+                    <div class="footer-conatiner-cont-heading">Follow Us</div>
+                    <div class="footer-conatiner--col-1 ">
+                        <span class="footer-conatiner-cont-col-follow-us-links">Home</span>
+                        <span class="footer-conatiner-cont-col-follow-us-links">About Us</span>
+                        <span class="footer-conatiner-cont-col-follow-us-links">Contact</span>
+                    </div>
+                </div>
+                <div></div>
             </footer>
         </section>
 

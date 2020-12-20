@@ -13,7 +13,7 @@
     display: flex;
     flex-direction: column-reverse;
     height: 470px;
-    right: -520px;
+    right: -430px;
     top: -50px;
 }
 
@@ -94,7 +94,7 @@
 }
 
 .header-col-buttons-02 {
-    margin-inline-end: 290px;
+    margin-inline-end: 100px;
 }
 
 .header-col-buttons-02 button {
@@ -145,6 +145,7 @@
 
 .header-menu {
     flex: 1;
+    margin-right: 80px;
 }
 
 .header-col-headers {
@@ -174,16 +175,16 @@
 .header-col-2 h1 {
     font-size: 70px;
     text-align: center;
-    padding-block-start: 279px;
+    padding-block-start: 249px;
     font-family: 'Bangers', cursive;
 }
 
 .header-col-1 p,
 .header-col-2 p {
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
-    padding-inline-start: 30px;
-    padding-inline-end: 100px;
+    padding-inline-start: 120px;
+    padding-inline-end: 150px;
 }
 
 .header-col-1 {
@@ -215,24 +216,33 @@ div>div.bpdy-details-abt-cont>p:nth-child(7) {
     font-family: 'Miriam Libre', sans-serif;
 }
 
-.menu li:nth-child(2),
+
+/* .menu li:nth-child(2),
  :nth-child(3) {
     padding-inline-start: 20px;
+} */
+
+#menu-li-ab-us,
+#menu-li-cnt-us {
+    padding-inline-start: 70px;
 }
 
 .header-col-77 {
     display: inline-block;
-    border: 12px solid blanchedalmond;
+    /* border: 12px solid blanchedalmond; */
     margin-block-start: 150px;
     position: absolute;
-    right: -255px;
+    right: -235px;
     height: 435px;
-    border-bottom-right-radius: 65px;
-    box-shadow: 7px 13px 23px 0 black;
+    /* border-bottom-right-radius: 65px; */
 }
 
 .header-img-hold {
-    width: 19vw;
+    width: 22vw;
+    height: auto;
+    border: 12px solid blanchedalmond;
+    box-shadow: 7px 13px 23px 0 black;
+    border-bottom-right-radius: 65px;
     border-bottom-right-radius: 50px;
 }
 
