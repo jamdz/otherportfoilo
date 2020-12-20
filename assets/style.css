@@ -13,7 +13,7 @@
     display: flex;
     flex-direction: column-reverse;
     height: 470px;
-    right: -430px;
+    right: -410px;
     top: -50px;
 }
 
@@ -223,7 +223,7 @@ div>div.bpdy-details-abt-cont>p:nth-child(7) {
 
 #menu-li-ab-us,
 #menu-li-cnt-us {
-    padding-inline-start: 70px;
+    padding-inline-start: 50px;
 }
 
 .header-col-77 {
