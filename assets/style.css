@@ -144,8 +144,8 @@
 /*Menu Css style*/
 
 .header-menu {
-    flex: 1;
-    margin-right: 80px;
+    flex: 3;
+    padding-left: 130px;
 }
 
 .header-col-headers {
