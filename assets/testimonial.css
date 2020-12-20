@@ -4,12 +4,6 @@ html {
     font-size: 17;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 .container {
     min-height: 60vh;
     width: 100%;
