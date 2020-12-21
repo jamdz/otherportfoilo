@@ -1,3 +1,7 @@
+.body-overflow-wrapper {
+    overflow-x: hidden;
+}
+
 .body-dtails-11 {
     padding: 2%;
     margin: 0 10% 0 10%;
@@ -151,7 +155,7 @@ div.body-details-content>div.body-div-details-img>div:nth-child(4),
 
 .body-details-about-me {
     margin-block-start: 0;
-    height: 550px;
+    height: 570px;
 }
 
 .body-deatils-abt-content {
